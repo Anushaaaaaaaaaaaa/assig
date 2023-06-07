@@ -1,0 +1,8 @@
+USE sql;
+CREATE DATABASE sales;
+CREATE TABLE orders(
+order_id int, 
+customer_id int,
+order_date date varchar(55),
+order_total decimal(55)
+);
